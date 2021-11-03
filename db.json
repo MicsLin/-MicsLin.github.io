@@ -1,0 +1,43 @@
+{
+    "accounts": [
+        {
+        "id": 1,
+        "category": "伙食",
+        "amount": "50",
+        "date": 1602028800000,
+        "description": "早餐"
+        }
+    ],
+    "users":[
+        {
+            "name":"小名",
+            "password":"1234567",
+            "permissions":["Home","Login","PermissionsA","PermissionsB"]
+        },
+        {
+            "name":"大寶",
+            "password":"123",
+            "permissions":["Home","Login","PermissionsC"]
+        }
+    ],
+    "errorpools":[
+        {
+            "line":"無",
+            "machine":"AMS-224-1",
+            "error_code":"Eh-03",
+            "happened_time":"13:25"
+        },
+        {
+            "line":"無",
+            "machine":"VV9B002134",
+            "error_code":"Er-03 電源異常",
+            "happened_time":"08:50"
+        },
+        {
+            "line":"無",
+            "machine":"AMS-224-2",
+            "error_code":"Eh-02 斷針",
+            "happened_time":"17:20"
+        }
+    ]
+}
